@@ -237,7 +237,7 @@ GetInfoScanDB = {
 
 ## 兼容性与已知限制
 
-**已实测的环境**：Titan / 永恒服，`GetBuildInfo` 返回 `3.80.2`，`Interface` 为 `38002`，`zhCN`。
+**已实测的环境**：Titan / 泰坦时光服，`GetBuildInfo` 返回 `3.80.2`，`Interface` 为 `38002`，`zhCN`。
 
 **兼容层**：`Core.lua` 里所有 API 都是"先探测、再使用"（每个引用都经过 `pcall` 探测并缓存），能识别 `Mainline` / `Classic Era` / `Wrath (38xxx)` / `Classic (16xxx)` 等版本线，并优先使用 `C_Item` / `C_Spell` / `C_QuestLog` 这类命名空间接口，缺失时回退到旧的全局函数。**但除上述环境外没有做过真机验证**，别的客户端上可能：
 - 显示插件过期（把 `## Interface` 改成你客户端的版本号即可，或勾选"加载过期插件"）
