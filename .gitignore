@@ -1,0 +1,10 @@
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.bak
+*.orig
+*.rej
+
+# Local Lua tooling
+.luarc.json
+luac.out

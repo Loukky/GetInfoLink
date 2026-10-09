@@ -1,0 +1,35 @@
+{
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.runtime.builtin": {
+        "basic": "disable",
+        "debug": "disable",
+        "io": "disable",
+        "math": "disable",
+        "os": "disable",
+        "package": "disable",
+        "string": "disable",
+        "table": "disable",
+        "utf8": "disable"
+    },
+    "Lua.workspace.library": [
+        "~\\.vscode\\extensions\\ketho.wow-api-0.22.3\\Annotations\\Core"
+    ],
+    "Lua.diagnostics.globals": [
+        "ChatFrame1EditBox",
+        "HandleModifiedItemClick",
+        "ITEM_QUALITY_COLORS",
+        "DEFAULT_CHAT_FRAME",
+        "ChatFrame1",
+        "SlashCmdList",
+        "WorldFrame",
+        "UISpecialFrames",
+        "CLOSE",
+        "FONT_COLOR_CODE_CLOSE",
+        "ColorPickerFrame",
+        "ChatEdit_InsertLink",
+        "OKAY",
+        "ChatFrameUtil",
+        "NOT_BOUND",
+        "ACCEPT"
+    ]
+}
