@@ -1,4 +1,4 @@
-## Interface: 120100
+## Interface: 38002
 ## Title: GetInfoScan
 ## Notes: Batch scan an ID range and collect the item / quest / spell / achievement links found in it.|n|n|cffffd200How to use:|r Click the minimap button (or type |cffffd200/gis|r), fill in the start and end ID, pick a type tab and press Scan. Results appear in the list; hover a row for its tooltip, click to insert the link into the chat edit box, or use Copy / Export. Press Escape or the CLOSE button to close the window.
 
@@ -13,7 +13,7 @@
 ## DefaultState: enabled
 ## IconTexture: Interface\AddOns\GetInfoScan\icon
 ## SavedVariables: GetInfoScanDB
-## X-Flavor: Fallback (retail / unmatched game type)
+## X-Flavor: Wrath / Titan Reforged
 
 # --- vendored libraries (AceGUI-3.0 and its two dependencies) ---------------
 Libs\LibStub\LibStub.lua
